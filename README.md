@@ -1,10 +1,11 @@
 # webpack-dev-prod-config
 Webpack for DEV, Production environment
 
-install node npm depencies.
+ <p>install node npm depencies.</p>
 
-Add this script to package.json
-
+ <p>Add this script to package.json</p>
+<pre>
+<code>
   "scripts":
   {
       "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --env.NODE_ENV=development --open",
@@ -12,10 +13,12 @@ Add this script to package.json
       "webpack:dev": "cross-env NODE_ENV=development node node_modules/webpack/bin/webpack.js --env.NODE_ENV=development",
       "watch": "webpack --watch",
   }
+  </code>
+  </pre>
   
   
   <h3>Run</h3>
-  npm run start
-  npm run build
-  npm run webpack:dev
-  npm run watch
+  <p>npm run start</p>
+   <p>npm run build</p>
+   <p>npm run webpack:dev</p>
+   <p>npm run watch</p>
